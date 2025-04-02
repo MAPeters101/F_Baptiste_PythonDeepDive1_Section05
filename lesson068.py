@@ -106,7 +106,12 @@ print()
 l1 = [1,2,3]
 s1 = {'x', 'y', 'z'}
 print([*l1, *s1])
+print('-'*80)
+
+s1 = 'abc'
+s2 = 'cde'
+print([*s1, *s2])
 print()
 
-
-
+print({*s1, *s2})
+print()
