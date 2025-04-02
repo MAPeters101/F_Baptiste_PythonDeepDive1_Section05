@@ -54,7 +54,32 @@ print()
 print(a)
 print(b)
 print()
+print('='*80)
+
+a, b = 10, 20
+print(a)
+print(b)
+print()
+
+a, b, c = 10, 20, 30
+print(a)
+print(b)
+print(c)
+print()
+
+a, b, c = 10, 'a', 3.14
+print(a)
+print(b)
+print(c)
+print()
+
+a, b, c = 10, {1,2}, ['a','b']
+print(a)
+print(b)
+print(c)
+print()
 print('-'*80)
+
 
 
 
