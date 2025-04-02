@@ -15,5 +15,12 @@ print(a)
 print(b)
 print('-'*80)
 
+s = {1,2,3}
+# a = s[0]
+# b = s[1:]
+a, *b = s
+print(a)
+print(b)
+print('-'*80)
 
 
