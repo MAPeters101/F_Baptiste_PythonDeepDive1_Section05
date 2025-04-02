@@ -166,3 +166,32 @@ print(c)
 print(d)
 print('-'*80)
 
+d = {'a':1, 'b':2, 'c':3, 'd':4}
+print(d)
+d,a,b,c = d
+print(a)
+print(b)
+print(c)
+print(d)
+print('-'*80)
+
+d = {'a':1, 'b':2, 'c':3, 'd':4}
+for e in d:
+    print(e)
+print()
+
+for e in d.values():
+    print(e)
+print()
+
+a,b,c,d = d.values()
+print(a)
+print(b)
+print(c)
+print(d)
+print('-'*80)
+
+
+
+
+
