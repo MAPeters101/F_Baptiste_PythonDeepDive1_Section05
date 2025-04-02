@@ -54,6 +54,47 @@ print(b)
 print(c)
 print('='*80)
 
+a, b, *c = 'python'
+print(a)
+print(b)
+print(c)
+print()
+
+a, b, *c, d = 'python'
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+
+s = 'python'
+a,b,c,d = s[0], s[1], s[2:-1] ,s[-1]
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+
+s = 'python'
+a,b,c,d = s[0], s[1], s[2:-1] ,s[-1]
+*c, = c
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+
+s = 'python'
+a,b,c,d = s[0], s[1], s[2:-1] ,s[-1]
+print(a)
+print(b)
+print(list(c))
+print(d)
+print('-'*80)
+
+
+
+
 
 
 
