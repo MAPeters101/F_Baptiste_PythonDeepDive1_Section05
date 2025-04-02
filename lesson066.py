@@ -103,5 +103,39 @@ a, b = b, a
 print(a)
 print(b)
 print()
+print('='*80)
+
+for e in 'XYZ':
+    print(e)
+print()
+
+a,b,c = 'XYZ'
+print(a)
+print(b)
+print(c)
+
+s = 'XYZ'
+print(s[0])
+print(s[1])
+print()
+
+s = {1,2,3}
+# print(s[0])
+# print(s[1])
+print()
+
+s = {'p', 'y', 't', 'h', 'o', 'n'}
+print(s)
+for e in s:
+    print(e)
+print()
+a,b,c,d,e,f = s
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print('-'*80)
 
 
