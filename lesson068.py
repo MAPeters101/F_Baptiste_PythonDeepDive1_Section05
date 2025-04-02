@@ -46,9 +46,15 @@ a, *b = t
 print(a)
 print(b)
 print()
-
-
-
 print('-'*80)
+
+[a,b,c] = 'XYZ'
+print(a)
+print(b)
+print(c)
+print('='*80)
+
+
+
 
 
