@@ -20,8 +20,6 @@ print(type(a))
 print(a)
 print('-'*80)
 
-
-
 a = ()
 print(type(a))
 print(a)
@@ -33,10 +31,29 @@ print(a)
 # a = (,)
 # print(type(a))
 # print(a)
+print('-'*80)
 
+a, b, c = [1, 'a', 3.14]
+print(a)
+print(b)
+print(c)
+print()
 
+(a, b, c) = [1, 'a', 3.14]
+print(a)
+print(b)
+print(c)
+print()
 
+a, b = (1,2)
+print(a)
+print(b)
+print()
 
+(a, b) = (1,2)
+print(a)
+print(b)
+print()
 print('-'*80)
 
 
