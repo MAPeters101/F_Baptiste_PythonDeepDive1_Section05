@@ -18,4 +18,27 @@ print(a)
 a = 1,
 print(type(a))
 print(a)
+print('-'*80)
+
+
+
+a = ()
+print(type(a))
+print(a)
+
+# a = ,
+# print(type(a))
+# print(a)
+
+# a = (,)
+# print(type(a))
+# print(a)
+
+
+
+
+print('-'*80)
+
+
+
 
