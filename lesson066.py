@@ -138,4 +138,23 @@ print(e)
 print(f)
 print('-'*80)
 
+d = {'a':1, 'b':2, 'c':3}
+for e in d:
+    print(e)
+print()
+a,b,c = d
+print(a)
+print(b)
+print(c)
+print()
+
+d = {'a':1, 'b':2, 'c':3, 'd':4}
+print(d)
+a,b,c,d = d
+print(a)
+print(b)
+print(c)
+print(d)
+print('.'*80)
+
 
