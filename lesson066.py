@@ -80,7 +80,28 @@ print(c)
 print()
 print('-'*80)
 
+a, b = 10, 20
+print(a)
+print(b)
+print()
 
+a, b = b, a
+print(a)
+print(b)
+print()
 
+c = (id(b), id(a))
+print(c)
+a,b = c
+print(a)
+print()
+
+a, b = 10, 20
+print(a)
+print(b)
+a, b = b, a
+print(a)
+print(b)
+print()
 
 
