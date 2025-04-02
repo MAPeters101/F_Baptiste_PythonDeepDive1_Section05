@@ -92,10 +92,21 @@ print(list(c))
 print(d)
 print('-'*80)
 
+l1 = [1,2,3]
+l2 = [4,5,6]
+l = [*l1, *l2]
+print(l)
+print()
 
+l1 = [1,2,3]
+s = 'abc'
+print([*l1, *s])
+print()
 
-
-
+l1 = [1,2,3]
+s1 = {'x', 'y', 'z'}
+print([*l1, *s1])
+print()
 
 
 
