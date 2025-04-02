@@ -191,7 +191,18 @@ print(c)
 print(d)
 print('-'*80)
 
+dict1 = {'a':1, 'b':2, 'c':3, 'd':4}
+for e in dict1.items():
+    print(e)
+print()
 
+dict1 = {'a':1, 'b':2, 'c':3, 'd':4}
+for e in dict1.items():
+    a, b = e
+    print('key={0}, value={1}'.format(a,b))
+print()
 
-
+dict1 = {'a':1, 'b':2, 'c':3, 'd':4}
+for a, b in dict1.items():
+    print('key={0}, value={1}'.format(a,b))
 
