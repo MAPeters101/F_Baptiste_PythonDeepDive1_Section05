@@ -162,6 +162,14 @@ print([*s1, *s2, *s3, *s4])
 print({*s1, *s2, *s3, *s4})
 print('-'*80)
 
+d1 = {'key1': 1, 'key2': 2}
+d2 = {'key1': 3, 'key4': 4}
+
+print({*d1, *d2})
+print({**d1, **d2})
+print({**d2, **d1})
+print('-'*80)
+
 
 
 
