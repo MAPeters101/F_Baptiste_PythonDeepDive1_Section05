@@ -19,4 +19,12 @@ def func1(a, b, *args, d):
 func1(1,2,3, 4, d=5)
 print('-'*80)
 
+def func1(*args, d):
+    print(args, d)
+
+#func1(1,2,3, 4, 5)
+func1(1,2,3,d='a')
+func1(d='a')
+print('-'*80)
+
 
