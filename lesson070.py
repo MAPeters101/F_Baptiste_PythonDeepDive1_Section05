@@ -51,6 +51,15 @@ print(avg(2, 2, 4, 4))
 print(avg())
 print('-'*80)
 
+def avg(*args):
+    count = len(args)
+    total = sum(args)
+    return count and total/count
+
+print(avg(2, 2, 4, 4))
+print(avg())
+print('-'*80)
+
 
 
 
