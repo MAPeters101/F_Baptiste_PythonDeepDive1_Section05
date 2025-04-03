@@ -114,4 +114,27 @@ print([*s1, *s2])
 print()
 
 print({*s1, *s2})
+print('-'*80)
+
+s = {10, -99, 3, 'd'}
+for c in s:
+    print(c)
 print()
+
+a,b,c,d = s
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+
+a,b,*c = s
+print(a)
+print(b)
+print(c)
+print()
+print('-'*80)
+
+
+
+
