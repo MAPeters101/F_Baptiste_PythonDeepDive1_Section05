@@ -198,6 +198,28 @@ print(e)
 print()
 print('-'*80)
 
+l = [1,2,3,4,'python']
+a,*b,(c,d, *e) = l
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
+
+l = [1,2,3,4,'python']
+print(l[0], l[1:-1], l[-1][0], l[-1][1], l[-1][2:])
+print(l[0], l[1:-1], l[-1][0], l[-1][1], list(l[-1][2:]))
+
+a,b,c,d,e = l[0], l[1:-1], l[-1][0], l[-1][1], list(l[-1][2:])
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
+print('-'*80)
+
 
 
 
