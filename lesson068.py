@@ -220,7 +220,30 @@ print(e)
 print()
 print('-'*80)
 
+l = (1,2,3,4,['a','b','c','d'])
+a,*b,(c,d, *e) = l
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
 
+a,b,c,d,e = l[0], l[1:-1], l[-1][0], l[-1][1], list(l[-1][2:])
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
+
+a,b,c,d,e = l[0], list(l[1:-1]), l[-1][0], l[-1][1], list(l[-1][2:])
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
 
 
 
