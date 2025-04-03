@@ -142,6 +142,16 @@ print(list(s))
 print(c)
 print('-'*80)
 
+s1 = {1,2,3}
+s2 = {3,4,5}
+#print(s1 + s2)
+print({*s1, *s2})
+c = {*s1, *s2}
+print(c)
+help(set)
+print(s1.union(s2))
+print('-'*80)
+
 
 
 
