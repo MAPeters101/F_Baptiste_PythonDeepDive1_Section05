@@ -173,6 +173,31 @@ print('-'*80)
 print({'a':1, 'b':2, **d1, 'c':3})
 print('-'*80)
 
+a,b,e = [1,2,'XY']
+print(a)
+print(b)
+print(e)
+c,d = e
+print(c)
+print(d)
+print()
+
+a,b,(c,d) = [1,2,'XY']
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+
+a,b,(c,d, *e) = [1,2,'python']
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print()
+print('-'*80)
+
 
 
 
