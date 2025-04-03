@@ -69,6 +69,25 @@ print(avg(2, 2, 4, 4))
 #print(avg())
 print('-'*80)
 
+def func1(a, b, c):
+    print(a)
+    print(b)
+    print(c)
+l = [10, 20, 30]
+#func1(l)
+func1(l, 'x', 'y')
+func1(*l)
+print()
+l = [10, 20, 30, 40]
+#func1(*l)
 
-
+def func1(a, b, c, *args):
+    print(a)
+    print(b)
+    print(c)
+    print(args)
+l = [10, 20, 30, 40]
+func1(*l)
+l = [10, 20, 30, 40, 50]
+func1(*l)
 
