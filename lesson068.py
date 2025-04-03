@@ -135,6 +135,14 @@ print(c)
 print()
 print('-'*80)
 
+s = {10, -99, 3, 'd'}
+print(list(s))
+
+*c, = s
+print(c)
+print('-'*80)
+
+
 
 
 
