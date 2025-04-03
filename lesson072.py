@@ -27,4 +27,11 @@ func1(1,2,3,d='a')
 func1(d='a')
 print('-'*80)
 
+def func1(*, d):
+    print(d)
+
+#func1(1,2,d=100)
+func1(d=100)
+print('-'*80)
+
 
