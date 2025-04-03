@@ -60,6 +60,15 @@ print(avg(2, 2, 4, 4))
 print(avg())
 print('-'*80)
 
+def avg(a, *args):
+    count = len(args) + 1
+    total = sum(args) + a
+    return total/count
+
+print(avg(2, 2, 4, 4))
+#print(avg())
+print('-'*80)
+
 
 
 
