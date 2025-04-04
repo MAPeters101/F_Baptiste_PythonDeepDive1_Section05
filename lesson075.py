@@ -32,5 +32,17 @@ print('-'*80)
 
 #func(1, 'x', 'y', 'z', b=4, d=10)
 func(1, 'x', 'y', 'z', d=10)
+print('='*80)
+
+def func(a, b, *args, c=10, d=20, **kwargs):
+    print(a)
+    print(b)
+    print(args)
+    print(c)
+    print(d)
+    print(kwargs)
+func(1, 2, 'x','y','z', c=100, d=200, x=0.1, y=0.2)
+print('-'*80)
+
 
 
