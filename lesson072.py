@@ -52,5 +52,20 @@ def func(a,b=2,*args,d):
 func(1,5,3,4,d='a' )
 print('-'*80)
 
+def func(a,b=20,*args,d=0, e):
+    print(a)
+    print(b)
+    print(args)
+    print(d)
+    print(e)
+
+#func(5,4,3,2,1)
+func(5,4,3,2,1,e='all engines running')
+print()
+func(0,600,d='goood morning',e='python!')
+print()
+func(11,'m/s',24,'mph',d='unladen',e='swallow')
+print('-'*80)
+
 
 
