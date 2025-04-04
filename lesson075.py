@@ -44,5 +44,20 @@ def func(a, b, *args, c=10, d=20, **kwargs):
 func(1, 2, 'x','y','z', c=100, d=200, x=0.1, y=0.2)
 print('-'*80)
 
+help(print)
+print(1,2,3)
+print(4,5,6)
+print()
+
+print(1,2,3,sep='-')
+print(4,5,6,sep='-')
+print()
+
+print(1,2,3,sep='-',end=' *** ')
+print(4,5,6,sep='-')
+print()
+print('-'*80)
+
+
 
 
