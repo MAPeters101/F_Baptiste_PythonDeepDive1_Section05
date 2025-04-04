@@ -34,4 +34,14 @@ def func1(*, d):
 func1(d=100)
 print('-'*80)
 
+def func(a,b,*,d):
+    print(a)
+    print(b)
+    print(d)
+
+#func(1,2, 3, d=4 )
+func(1,2, d=4 )
+print('-'*80)
+
+
 
