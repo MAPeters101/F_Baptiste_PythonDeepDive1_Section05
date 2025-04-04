@@ -24,6 +24,13 @@ func(1, 2, d=20, x=100, y=200)
 func(1, 2, x=100, y=200, d=20)
 print('-'*80)
 
+def func(a, b, **kwargs):
+    print(a)
+    print(b)
+    print(kwargs)
+func(1, 2, x=100, y=200)
+print('-'*80)
+
 
 
 
