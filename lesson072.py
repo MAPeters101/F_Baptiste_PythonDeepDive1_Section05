@@ -43,5 +43,14 @@ def func(a,b,*,d):
 func(1,2, d=4 )
 print('-'*80)
 
+def func(a,b=2,*args,d):
+    print(a)
+    print(b)
+    print(args)
+    print(d)
+
+func(1,5,3,4,d='a' )
+print('-'*80)
+
 
 
