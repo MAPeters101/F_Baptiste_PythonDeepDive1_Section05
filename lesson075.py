@@ -58,6 +58,23 @@ print(4,5,6,sep='-')
 print()
 print('-'*80)
 
+def calc_hi_lo_avg(*args, log_to_console=False):
+    hi = int(bool(args)) and max(args)
+    lo = min(args) if len(args) > 0 else 0
+    # if len(args) == 0:
+    #     lo = 0
+    # else:
+    #     lo = min(args)
+    avg = (hi + lo) / 2
+    if log_to_console:
+        print("high={0}, low={1}, avf={2}".format(hi, lo, avg))
+    return avg
 
+avg = calc_hi_lo_avg(1,2,3,4,5)
+print(avg)
+print()
 
+is_debug = True
+avg = calc_hi_lo_avg(1,2,3,4,5, log_to_console=is_debug)
+print(avg)
 
