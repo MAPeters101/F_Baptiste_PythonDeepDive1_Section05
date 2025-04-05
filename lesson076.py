@@ -66,6 +66,15 @@ print(time_it(compute_powers_2, n=2, start=0, end=20_000, rep=5))
 print(time_it(compute_powers_3, 2, start=0, end=20_000, rep=5))
 print('='*80)
 
+a = (2**i for i in range(5))
+print(a)
+print(list(a))
+print()
+
+def compute_powers_4(n, *, start=1, end):
+    # Using generator expression
+    return list(n**i for i in range(start, end))
+print(time_it(compute_powers_4, 2, start=0, end=20_000, rep=5))
 
 
 
