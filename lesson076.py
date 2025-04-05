@@ -61,6 +61,10 @@ def compute_powers_3(n, *, start=1, end):
 print(list(compute_powers_3(2, end=5)))
 print('-'*80)
 
+print(time_it(compute_powers_1, 2, start=0, end=20_000, rep=5))
+print(time_it(compute_powers_2, n=2, start=0, end=20_000, rep=5))
+print(time_it(compute_powers_3, 2, start=0, end=20_000, rep=5))
+print('='*80)
 
 
 
