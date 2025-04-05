@@ -53,9 +53,15 @@ sleep(1)
 log('message 3', dt=None)
 print('-'*80)
 
+my_list = [1,2,3]
+def func(a=my_list):
+    print(a)
 
-
-
+func()
+func(['a', 'b'])
+my_list.append(4)
+func()
+print('.'*80)
 
 
 
