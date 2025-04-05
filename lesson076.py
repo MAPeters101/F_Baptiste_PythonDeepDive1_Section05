@@ -46,6 +46,12 @@ def compute_powers_1(n, *, start=1, end):
 print(compute_powers_1(2, end=5))
 print('-'*80)
 
+def compute_powers_2(n, *, start=1, end):
+    return [n**i for i in range(start, end)]
+
+print(compute_powers_2(2, end=5))
+print('-'*80)
+
 
 
 
